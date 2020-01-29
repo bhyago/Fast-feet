@@ -1,0 +1,8 @@
+{
+  "name": "fast-feet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bhyago/Fast-feet.git",
+  "author": "bhyago <bhyago@gmail.com>",
+  "license": "MIT"
+}
