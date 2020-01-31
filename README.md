@@ -13,17 +13,65 @@
  <a href="#memo-license">License</a>
 </p>
 
-## :outbox_tray: tecnologias
- - [Nodejs](https://nodejs.org/en/)
- - [Expressjs](https://expressjs.com/pt-br/)
+## :mega: Tecnologias
+ - [ Nodejs ]( https://nodejs.org/en/ )
+ - [ Expressjs ]( https://expressjs.com/pt-br/ )
+ - [ PostgreSQL ]( https://www.postgresql.org/ )
 
-## :link: Dependências backend
- - [bcryptjs](https://www.npmjs.com/package/bcrypt)
- - [express](https://www.npmjs.com/package/express)
- - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
- - [pg](https://www.npmjs.com/package/pg)
- - [pg-hstore](https://www.npmjs.com/package/pg-hstore)
- - [sequelize](https://sequelize.org/)
- - [yup](https://github.com/jquense/yup)
+## :mega: Dependências
+ - [ bcryptjs ]( https://www.npmjs.com/package/bcrypt ) 
+ - [ express ]( https://www.npmjs.com/package/express )
+ - [ jsonwebtoken ]( https://www.npmjs.com/package/jsonwebtoken )
+ - [ pg ]( https://www.npmjs.com/package/pg )
+ - [ pg-hstore ]( https://www.npmjs.com/package/pg-hstore )
+ - [ sequelize ]( https://sequelize.org/ )
+ - [ yup ]( https://github.com/jquense/yup ) 
 
-## :checkered_flag: Pré-requisitos
+## :mega: Pré-requisitos
+
+  Esse projeto faz uso de algumas tecnoligas de uso obrigario e que são necessarias serem instaldas no sistema. São elas:
+  **Nodejs** na versão **12.14.1** ou superior e o **postgreSql**.
+  
+## :mega: Como Usar
+
+* **Download**
+  
+  Para fazer o download do projeto abra o **```terminal```** e execute o comando abaixo: 
+  ```
+  git clone https://github.com/bhyago/Fast-feet.git
+  ```
+* **Instalando as Dependências** 
+
+  Para instalar as dependências necessarias e gerar a pasta **```node_modules```** execute o comando:
+  ```
+  yarn
+  ```
+  
+* **Inicialização do Banco de dados**
+
+  Dentro do diretorio *``` ./fastfeet/src/config/database```*, altere os dados de acordo com a configuração do seu bando de dados, exemplo:
+  ```JavaScript
+  module.exports = {
+  dialect: 'postgres',
+  host: 'localhost',
+  username: 'postgres',
+  password: 'suasenha',
+  database: 'fastfeet',
+  define: {
+    timestamps: true,
+    underscored: true,
+    underscoredAll: true,
+  },
+  };
+  ```
+
+* **Inicialização do servidor**
+
+  Para inicializar o servidor, no terminal execute o comando:
+  ```
+  yarn dev
+  ```
+  Se desejar iniciar o servidor juntamente com **```degub```** do **```vscode```**, execute o seguinte comando:
+  ```
+  yarn dev:degub
+  ```
