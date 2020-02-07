@@ -4,7 +4,7 @@
   FastFeet
 </h1>
 
-<h4 align="center">app para uma transportadora fictícia</h4>
+<h4 align="center">app para uma transportadora fictícia(<strong>em fase de desenvolvimento</strong>)</h4>
 <h6 align="center"><small>:octocat:</small></h6>
 
 <p align="center">
