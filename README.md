@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./src/assets/img/logo.pn" alt="Api rest node.js fastfeet" title="Fastfeet">
+  <img src="./src/assets/img/logo.png" alt="Api rest node.js fastfeet" title="Fastfeet">
   <br>
   FastFeet
 </h1>
